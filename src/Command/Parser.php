@@ -34,7 +34,7 @@ class Parser extends Command
                 'parser'
             )
             ->addArgument('input_dir', InputArgument::REQUIRED, 'Path for read files of data')
-            ->addArgument('output_dir', InputArgument::REQUIRED, 'Path for wride files of data');
+            ->addArgument('output_dir', InputArgument::REQUIRED, 'Path for write files of data');
     }
 
     protected function execute(InputInterface $input, OutputInterface $output)
