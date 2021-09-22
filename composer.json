@@ -1,0 +1,19 @@
+{
+    "name": "lifeair/izbirkom31",
+    "authors": [
+        {
+            "name": "Pavel Mozhchil",
+            "email": "lifeair@gmail.com"
+        }
+    ],
+    "require": {
+        "symfony/console": "5.*",
+        "sleeping-owl/apist": "1.x"
+    },
+    "autoload": {
+        "psr-4": {
+            "Parser\\": "src/"
+        },
+        "classmap": ["src"]
+    }
+}
