@@ -14,7 +14,7 @@ use SleepingOwl\Apist\Apist as _e;
 
 /**
  * Class Parser
- * @package Humped\Command
+ * @package Parser\Command
  */
 class Parser extends Command
 {
